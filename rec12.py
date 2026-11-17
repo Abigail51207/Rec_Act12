@@ -22,11 +22,9 @@ def hailstone(n):
         Traceback (most recent call last):
         StopIteration
     '''
-    while True:
+    while n != 1:
         yield n
-        if n == 1:
-            break
-        elif n % 2 == 0:
+        if n % 2 == 0:
             n = n // 2
         else:
             n = 3 * n + 1
