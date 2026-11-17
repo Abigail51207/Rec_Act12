@@ -31,6 +31,7 @@ def hailstone(num):
         else:
             num = 3 * num + 1
 
+
 hailstone(6) 
 my_gen = hailstone(6) 
 [item for item in my_gen]
