@@ -28,6 +28,7 @@ def hailstone(n):
             n = n // 2
         else:
             n = 3 * n + 1
+        yield 1
 
 
 hailstone(6) 
