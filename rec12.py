@@ -31,14 +31,14 @@ def hailstone(n):
         yield 1
 
 
-hailstone(6) 
-my_gen = hailstone(6) 
-[item for item in my_gen]
-my_gen = hailstone(5) 
-print(next(my_gen)) 
-print(next(my_gen))
-print(next(my_gen))
-print(next(my_gen))
-print(next(my_gen))
-print(next(my_gen))
-print(next(my_gen))
+#hailstone(6) 
+#my_gen = hailstone(6) 
+#[item for item in my_gen]
+#my_gen = hailstone(5) 
+#print(next(my_gen)) 
+#print(next(my_gen))
+#print(next(my_gen))
+#print(next(my_gen))
+#print(next(my_gen))
+#print(next(my_gen))
+#print(next(my_gen))
