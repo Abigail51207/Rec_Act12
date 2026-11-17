@@ -1,6 +1,6 @@
 # Recitation Activity #12
 
-def hailstone(num):
+def hailstone(n):
     '''
         >>> my_gen = hailstone(6) 
         >>> [item for item in my_gen]
@@ -23,13 +23,13 @@ def hailstone(num):
         StopIteration
     '''
     while True:
-        yield num
-        if num == 1:
+        yield n
+        if n == 1:
             break
-        elif num % 2 == 0:
-            num = num // 2
+        elif n % 2 == 0:
+            n = n // 2
         else:
-            num = 3 * num + 1
+            n = 3 * n + 1
 
 
 hailstone(6) 
